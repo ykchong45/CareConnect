@@ -1,79 +1,30 @@
-<a href="https://rainbowkit.com">
-  <img alt="rainbowkit" src="https://user-images.githubusercontent.com/372831/168174718-685980e0-391e-4621-94a1-29bf83979fa5.png" />
-</a>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# RainbowKit
+## Getting Started
 
-**The best way to connect a wallet 🌈**
-
-RainbowKit is a [React](https://reactjs.org/) library that makes it easy to add wallet connection to your dapp.
-
-- 🔥 Out-of-the-box wallet management
-- ✅ Easily customizable
-- 🦄 Built on top of [wagmi](https://github.com/tmm/wagmi) and [ethers](https://docs.ethers.io)
-
-## Quick start
-
-You can scaffold a new RainbowKit + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org) app with one of the following commands, using your package manager of choice:
+First, run the development server:
 
 ```bash
-npm init @rainbow-me/rainbowkit@latest
+npm run dev
 # or
-pnpm create @rainbow-me/rainbowkit@latest
-# or
-yarn create @rainbow-me/rainbowkit
+yarn dev
 ```
 
-## Documentation
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-For full documentation, visit [rainbowkit.com](https://rainbowkit.com).
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-### Try it out
+## Learn More
 
-You can use the CodeSandbox links below try out RainbowKit:
+To learn more about Next.js, take a look at the following resources:
 
-- with [Create React App](https://codesandbox.io/s/rainbowkit-create-react-app-1vwx1r)
-- with [Create React App (TypeScript)](https://codesandbox.io/s/rainbowkit-create-typescript-app-xuxnqy)
-- with [Next.js](https://codesandbox.io/s/rainbowkit-nextjs-gz890p)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Examples
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-The following examples are provided in the [examples](./examples/) folder of this repo.
+## Deploy on Vercel
 
-- `with-create-react-app`
-- `with-next`
-- `with-next-custom-button`
-- `with-next-mint-nft`
-- `with-next-siwe-next-auth`
-- `with-next-siwe-iron-session`
-- `with-remix`
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Running examples
-
-To run an example locally, install dependencies.
-
-```bash
-pnpm install
-```
-
-Then go into an example directory, eg: `with-next`.
-
-```bash
-cd examples/with-next
-```
-
-Then run the dev script.
-
-```bash
-pnpm run dev
-```
-
-## Contributing
-
-Please follow our [contributing guidelines](./.github/CONTRIBUTING.md).
-
-## License
-
-Licensed under the MIT License, Copyright © 2022-present [Rainbow](https://rainbow.me).
-
-See [LICENSE](./LICENSE) for more information.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
